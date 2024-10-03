@@ -8,7 +8,7 @@ public class Exercicio06 {
         Scanner entrada = new Scanner(System.in);
         String[] nomes = new String[6];
         String nomeProcurado = "";
-
+       
         for (int i = 0; i < 6; i++) {
             System.out.println("Informe o nome!");
             nomes[i] = entrada.next();
@@ -17,17 +17,12 @@ public class Exercicio06 {
         System.out.println("Informe um nome a ser procurado na lista");
         nomeProcurado = entrada.next();
         for (int i = 0; i < 6; i++) {
-            if(nomeProcurado.equals(nomes[i])){
+            if (nomeProcurado.equals(nomes[i])) {
                 System.out.println("Achei o nome");
-                
-            
-            
+
+            }
         }
+
     }
-      
-    
-}
 
 }
-
-

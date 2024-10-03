@@ -33,17 +33,17 @@ public class Exemplo02 {
 //Mostre quantas pessoas são menores de idade;
         int quantidadeDeMenores = 0;
         for (int i = 0; i < 10000; i++) {
-            if(idade[i]<18){
+            if (idade[i] < 18) {
                 quantidadeDeMenores++;
             }
         }
-        System.out.println("Quantidade de menores: "+ quantidadeDeMenores);
-        
+        System.out.println("Quantidade de menores: " + quantidadeDeMenores);
+
         //Mostre a média de idade de todas as pessoas;
         double totalIdades = 0;
-        for (int i = 0; i < 10000; i++){
+        for (int i = 0; i < 10000; i++) {
             totalIdades = totalIdades + idade[i];
         }
-        System.out.println("Média de idades: "+ (totalIdades/10000));
+        System.out.println("Média de idades: " + (totalIdades / 10000));
     }
 }
